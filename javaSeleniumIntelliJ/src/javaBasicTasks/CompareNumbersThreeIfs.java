@@ -2,7 +2,7 @@ package javaBasicTasks;
 
 import java.util.Scanner;
 
-public class Compare {
+public class CompareNumbersThreeIfs {
 	
 	
 	static Scanner sc;
@@ -16,17 +16,19 @@ public class Compare {
 		 String s1 = sc.nextLine();
 		 String s2 = sc.nextLine();
 		 String s3 = sc.nextLine();
-			
+		 
 		 double n1 = Double.parseDouble(s1);
 		 double n2 = Double.parseDouble(s2);
 		 double n3 = Double.parseDouble(s3);
+		
 		 
-		 if(n1 >= n2 && n1 >= n3 )
+		 
+		 if(n1 >n2 && n1 > n3 )
 	        {
 			 
 	            System.out.printf("%.0f",n1);
 	        }
-	        else if(n2 >= n1 && n2>=n3 )
+	        else if(n2 > n1 && n2> n3 )
 	        {
 	        
 	        	System.out.printf("%.0f",n2);

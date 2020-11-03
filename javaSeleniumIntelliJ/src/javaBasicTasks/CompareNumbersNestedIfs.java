@@ -15,7 +15,7 @@ public class CompareNumbersNestedIfs {
 		 int n1 = Integer.parseInt(sc.nextLine());
 		 int n2 = Integer.parseInt(sc.nextLine());
 		 int n3 = Integer.parseInt(sc.nextLine());
-//		 int l=0,s=0,m=0;
+//		 int l=0,s=0,m=0; 2nd option 
 		 
 		 
 		 
@@ -26,7 +26,7 @@ public class CompareNumbersNestedIfs {
 		 }
 		 
 
-		 
+//	part of 2nd option 	 
 //		 if ((n1>=n2)&&(n1>=n3))
 //		        l=n1;
 //		 if((n2>=n1)&&(n2>=n3))
