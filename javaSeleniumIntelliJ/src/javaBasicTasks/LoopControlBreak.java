@@ -2,7 +2,7 @@ package javaBasicTasks;
 
 import java.util.Scanner;
 
-public class LoopControlBreakOperator {
+public class LoopControlBreak {
 	
 	static Scanner sc;
 
