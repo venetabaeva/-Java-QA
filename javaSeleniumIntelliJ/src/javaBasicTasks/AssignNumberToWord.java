@@ -60,7 +60,15 @@ public class AssignNumberToWord {
 
 		 				
 		        	 }		   
-	
+	//optional 
+//	 sc = new Scanner(System.in);
+//	    int r = sc.nextInt();
+//	    
+//	    String[] zodiacs =  {"Rat","Monkey", "Rooster", "Dog", "Pig", "Ox", "Tiger",
+//				"Hare","Dragon", "Snake", "Horse", "Sheep"};
+//
+//	 				 System.out.println(zodiacs[r % 12]);
+//	        	 }		   
 
 
 		   }
