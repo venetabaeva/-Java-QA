@@ -9,7 +9,7 @@ public class For {
 
 		 sc = new Scanner(System.in);
 		 
-		 for(int n=0; n <n;n++) {
+		 for(int n=0; n <10;n++) {
 			 System.out.println(n);
 			
 		}
