@@ -14,27 +14,13 @@ public class Discount {
 		double n = sc.nextDouble();
 		double nn = 0;
 		double d = (1 - 0.65);
-		double dd = 0;
-
-//		for (double i = 0; i < n; i++) {
-//			for (double ii = 0; ii < n; ii++)
-//				if (i > n) {
-//					do {
-//						nn = sc.nextDouble();
-//						nn = nn * d;
-//						System.out.printf("%.2f%n",nn);
-//
-//					} while (i < n);
-//					
-//				}
-			
 
 
 		for (double i = 0; i < n; i++) {
 			for (double ii = 0; ii < n; ii++)
 				if (ii == i) {
 					nn =sc.nextDouble();
-					nn*=d;
+					nn*=d; 
 					continue;
 				}
 			System.out.printf("%.2f%n",nn);
