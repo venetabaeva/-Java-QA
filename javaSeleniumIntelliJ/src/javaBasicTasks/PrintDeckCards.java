@@ -37,7 +37,7 @@ public class PrintDeckCards {
              default: ss = Integer.toString(i); break;
              }
 
-             System.out.println((ss  + " of spades" + " "+ ss  + " of clubs" + " "+ ss  +" of hearts" + " "+ ss +" of diamonds"));
+             System.out.println((ss  + " of spades" + ", "+ ss  + " of clubs" + ", "+ ss  +" of hearts" + " "+ ss +" of diamonds"));
           }
        }
 }
