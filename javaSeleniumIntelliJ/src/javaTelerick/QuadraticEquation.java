@@ -1,4 +1,4 @@
-package DataTypes;
+package javaTelerick;
 import java.util.Scanner;
 /*
 Input:reads the coefficients a, b and c of a quadratic equation ax2 + bx + c = 0

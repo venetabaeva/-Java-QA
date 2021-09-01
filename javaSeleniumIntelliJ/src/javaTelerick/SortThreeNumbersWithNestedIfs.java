@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package javaTelerick;
 
 import java.util.Scanner;
 /*
@@ -15,25 +15,25 @@ public class SortThreeNumbersWithNestedIfs {
         double b = Double.parseDouble(sc.nextLine());
         double c = Double.parseDouble(sc.nextLine());
 
-        if (a > b && a > c) {
+        if (a >= b && a >= c) {
             if (b > c) {
-                System.out.printf("%.1f %.1f %.1f", a, b, c);
+                System.out.printf("%.0f %.0f %.0f ", a, b, c);
             } else {
-                System.out.printf("%.1f %.1f %.1f", a, c, b);
+                System.out.printf("%.0f %.0f %.0f", a, c, b);
             }
         }
-        else if (b > a && b > c) {
+        else if (b >= a && b >= c) {
             if (a > c) {
-                System.out.printf("%.1f %.1f %.1f", b, a, c);
+                System.out.printf("%.0f %.0f %.0f", b, a, c);
             } else {
-                System.out.printf("%.1f %.1f %.1f", b, c, a);
+                System.out.printf("%.0f %.0f %.0f", b, c, a);
             }
         }
-        else if (c > a && c > b) {
+        else if (c >= a && c >= b) {
             if (a > b) {
-                System.out.printf("%.1f %.1f %.1f", c, a, b);
+                System.out.printf("%.0f %.0f %.0f", c, a, b);
             } else {
-                System.out.printf("%.1f %.1f %.1f", c, b, a);
+                System.out.printf("%.0f %.0f %.0f", c, b, a);
             }
         }
     }

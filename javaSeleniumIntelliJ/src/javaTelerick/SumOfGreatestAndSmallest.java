@@ -1,4 +1,4 @@
-package DataTypes;
+package javaTelerick;
 import java.util.Scanner;
 /*
 Input:enters 3 numbers (each number will be on a separate/new line)

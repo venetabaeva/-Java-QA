@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package javaTelerick;
 /*
 Input:converts a number in the range [0…999] to words, corresponding to the English pronunciation
 Output:print

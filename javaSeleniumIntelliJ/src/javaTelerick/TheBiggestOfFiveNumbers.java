@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package javaTelerick;
 
 import java.util.Scanner;
 

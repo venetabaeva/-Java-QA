@@ -1,4 +1,4 @@
-package DataTypes;
+package javaTelerick;
 import java.util.Scanner;
 /*
 Input:  reads  information

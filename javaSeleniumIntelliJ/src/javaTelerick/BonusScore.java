@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package javaTelerick;
 /*
 Input:
 applies bonus score to given score in the range [1…9]

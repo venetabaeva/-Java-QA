@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package javaTelerick;
 
 import java.util.Scanner;
 /*
@@ -12,6 +12,8 @@ public class DigitAsWord {
         Scanner sc = new Scanner(System.in);
         String string =  sc.next();
 
+        
+    	try {
         switch (string){
             case "0":
                 System.out.println("zero");
@@ -47,5 +49,9 @@ public class DigitAsWord {
                 System.out.println("not a digit");
                 break;
         }
+  
+    	} catch (Exception e) {
+			System.out.println("not a digit");
     }
+}
 }

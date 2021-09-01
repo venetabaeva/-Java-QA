@@ -1,4 +1,4 @@
-package DataTypes;
+package javaTelerick;
 import java.util.Scanner;
 /*
 Input:On the first line, you will receive the four-digit number N

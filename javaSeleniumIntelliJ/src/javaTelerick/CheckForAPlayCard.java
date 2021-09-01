@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package javaTelerick;
 /*
 Input:
 enters a string
